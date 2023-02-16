@@ -11,7 +11,7 @@
 	<artifactId>springboot-myweb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	
 	<properties>
 		<java.version>17</java.version>
@@ -35,18 +35,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		
-		<!-- JSTL -->
-		<dependency>
-		    <groupId>javax.servlet</groupId>
-		    <artifactId>jstl</artifactId>
-		</dependency>
-		
-		<!-- Tomcat Jasper -->
-		<dependency>
-		    <groupId>org.apache.tomcat.embed</groupId>
-		    <artifactId>tomcat-embed-jasper</artifactId>
 		</dependency>
 		
 	</dependencies>
